@@ -184,7 +184,8 @@ public int get_kth_to_end_elemnet(int k)
     int kth_last_element = this.lenght() - k;
         return this.get(kth_last_element);
       }
-public void delete(){
+//Delete the middle node.
+public void delete_at_middle(){
     System.out.println("List after deletion");
     Node n = this.head;
     n = n.next;
